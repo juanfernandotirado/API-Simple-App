@@ -1,0 +1,26 @@
+#container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 5px;
+
+    margin-top: 2rem;
+
+    justify-content: center;
+    align-items: center;
+}
+ .notfound{
+     grid-column: 1/-1;
+     text-align: center;
+     font-size: 2rem;
+     text-transform: uppercase;
+     box-sizing: border-box;
+     padding: 10px;
+     border: 1px solid black;
+ }
+
+ img{
+     clip-path: circle();
+     object-fit: cover;
+     align-self: center;
+ }
